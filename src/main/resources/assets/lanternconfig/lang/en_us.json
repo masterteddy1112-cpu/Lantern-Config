@@ -1,0 +1,24 @@
+{
+    "itemGroup.lanternconfig": "Lantern Config",
+
+    "item.lanternconfig.lantern": "Lantern",
+    "item.lanternconfig.soul_lantern": "Soul Lantern",
+
+    "block.lanternconfig.lantern": "Lantern",
+    "block.lanternconfig.soul_lantern": "Soul Lantern",
+
+    "gui.lanternconfig.title": "Lantern Config",
+    "gui.lanternconfig.change_color": "Change Color",
+    "gui.lanternconfig.set_light_level": "Set Light Level",
+    "gui.lanternconfig.toggle_waterlogged": "Toggle Waterlogged",
+    "gui.lanternconfig.close": "Close",
+
+    "gui.lanternconfig.mode_menu.title": "Lantern Mode",
+    "gui.lanternconfig.mode.default": "Default",
+    "gui.lanternconfig.mode.flicker": "Flicker",
+    "gui.lanternconfig.mode.off": "Off",
+
+    "gui.lanternconfig.mode.default.tooltip": "Stays lit at full brightness.",
+    "gui.lanternconfig.mode.flicker.tooltip": "Randomly flickers between bright and dim, like a real flame.",
+    "gui.lanternconfig.mode.off.tooltip": "Turns the lantern off completely."
+}

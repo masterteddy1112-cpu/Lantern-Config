@@ -1,0 +1,15 @@
+{
+	"parent": "minecraft:block/soul_lantern",
+	"display": {
+		"firstperson_righthand": {
+			"rotation": [0, -45, 15],
+			"translation": [3.3, 3.2, 2.2],
+			"scale": [0.55, 0.55, 0.55]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 45, -15],
+			"translation": [3.3, 3.2, 2.2],
+			"scale": [0.55, 0.55, 0.55]
+		}
+	}
+}

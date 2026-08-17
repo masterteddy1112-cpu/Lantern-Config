@@ -1,0 +1,13 @@
+{
+    "multipart": [
+        { "when": {"mode": "off", "hanging": "false"}, "apply": {"model": "lanternconfig:block/lantern_off"} },
+        { "when": {"mode": "off", "hanging": "true"}, "apply": {"model": "lanternconfig:block/lantern_off_hanging"} },
+        { "when": {"mode": "default", "hanging": "false"}, "apply": {"model": "minecraft:block/lantern"} },
+        { "when": {"mode": "default", "hanging": "true"}, "apply": {"model": "minecraft:block/lantern_hanging"} },
+        { "when": {"mode": "flicker", "flicker_lit": "false", "hanging": "false"}, "apply": {"model": "lanternconfig:block/lantern_off"} },
+        { "when": {"mode": "flicker", "flicker_lit": "true", "hanging": "false"}, "apply": {"model": "minecraft:block/lantern"} },
+        { "when": {"mode": "flicker", "flicker_lit": "false", "hanging": "true"}, "apply": {"model": "lanternconfig:block/lantern_off_hanging"} },
+        { "when": {"mode": "flicker", "flicker_lit": "true", "hanging": "true"}, "apply": {"model": "minecraft:block/lantern_hanging"}}
+
+    ]
+}

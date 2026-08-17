@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "lanternconfig",
+	"version": "${version}",
+	"name": "Lantern Config",
+	"description": "Edit your lanterns in-game! This mod allows you to change Lantern block state to Flicker or Off.",
+	"authors": [
+		"MasterTeddy1112"
+	],
+	"contact": {
+		"homepage": "https://masterteddy1112-cpu.github.io/Maps-and-more/",
+		"sources": "https://github.com/mastertedy1112-cpu/Lanter-Config"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/lanternconfig/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.lantern_config.LanternConfig"
+		],
+		"client": [
+			"com.lantern_config.client.LanternConfigClient"
+		],
+		"fabric-datagen": [
+			"com.lantern_config.client.LanternConfigDataGenerator"
+		]
+	},
+	"mixins": [
+		"lanternconfig.mixins.json",
+		{
+			"config": "lanternconfig.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	}
+}
